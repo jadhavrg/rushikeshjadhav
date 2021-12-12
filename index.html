@@ -30,16 +30,25 @@
       
       ul li a{
             text-decoration: none;
-            dispaly:inline-block;
-            margin:15px;
+            color:white;
+            font-size:25px;
       }
       
       ul li a:hover{
              color: red;
+             text-decoration:underline;
       }
-       nav ul li a{
-                   display:inline;
+       ul li{
+                   display:inline-block;
+                   margin:20px;
         }
+       ul li a.active
+       ul li a:active{
+                     color:yellow;
+                     text-decoration:underline;
+      }
+               
+      
       
       </style>
     
@@ -52,7 +61,7 @@
          <div class="navcenter"> <input type="text"><button style="text-align:center";> Search </button>   </div>
          <div class="navright">
                                  <ul>
-                                    <li> <a href="#"> Home  </a>  </li>
+                                    <li> <a href="#" class="active"> Home  </a>  </li>
                                  </ul>
                                  <ul>
                                     <li> <a href="#">  About </a>  </li>
