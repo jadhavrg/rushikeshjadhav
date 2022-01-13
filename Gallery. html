@@ -1,6 +1,11 @@
 <html>
 <head>
    <title> gallery </title>
+   <style type="text/css">
+    body{
+        background-image:url("Maharashtra.jpeg") ;
+        }
+</style>
 </head>
 <body>
 
