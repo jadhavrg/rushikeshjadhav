@@ -5,6 +5,11 @@
     body{
         background-image:url("Maharashtra.jpeg") ;
         }
+     background-image{
+        width:100px;
+        height:100px;
+        }
+
 </style>
 </head>
 <body>
