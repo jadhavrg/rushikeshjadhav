@@ -8,6 +8,7 @@
   outline:none; border: none;
   font-weight:normal;
   transition: all .2s linear;
+  background:red;
 }
 html{
   
