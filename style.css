@@ -57,3 +57,20 @@ header .user .post{
   font-weight: lighter;
 }
 
+header .navbar{
+  padding: 1rem 3rem;
+}
+
+padding .navbar ul li{
+  margin: 1rem 0;
+  list-style: none;
+}
+
+header .navbar ul li a{
+  display:block;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  background: rgba(255,255,255,.2);
+  border-radius: 1rem;
+}
