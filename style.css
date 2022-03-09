@@ -8,9 +8,18 @@
   outline:none; border: none;
   font-weight:normal;
   transition: all .2s linear;
-  background:red;
 }
 html{
-  
-
+  font-size:62.5%;
+  overflow:hidden;
 }
+body{
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background: linear-gradient(deeppink,purple);
+  padding: 5.5rem;
+}
+
