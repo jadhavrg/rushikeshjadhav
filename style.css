@@ -44,3 +44,16 @@ header.user img{
   object-fit: cover;
   box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
 }
+
+header .user .name{
+  font-size: 3rem;
+  color:#fff;
+  padding:.5rem 0;
+}
+
+header .user .post{
+  font-size: 1.8rem;
+  color: #eee;
+  font-weight: lighter;
+}
+
