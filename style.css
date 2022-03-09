@@ -2,4 +2,14 @@
   padding: o;
   margin: 0;
   text-decoration: none;
+  box-sizing:border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform:capitalize;
+  outline:none; border: none;
+  font-weight:normal;
+  transition: all .2s linear;
+}
+html{
+  
+
 }
