@@ -29,7 +29,7 @@ header{
   backdrop-filter:blur(.4rem);
   text-align:center;
   padding:1rem;
-  border-radiud:1rem;
+  border-radius:1rem;
 }
 
 header.user{
