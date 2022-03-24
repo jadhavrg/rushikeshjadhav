@@ -90,5 +90,4 @@ header .navbar ul li a:hover{
   backdrop-filter:blur(.4rem);
   border-radius:1rem;
   overflow: hidden;
-  float: right;
 }
