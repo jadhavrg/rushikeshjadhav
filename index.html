@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
+
+<script>
+
+     var type = new typed('.typing-text',{
+         strings : [ 'web designer', 'front end developer', 'graphic designer', 'photographer' ],
+         typeSpeed: 120,
+         loop:true
+     });
+
+</script>
+
 </head>
 <body>
     <header>
@@ -21,14 +36,14 @@
                 <li>
                      <a href="#home">Home</a>
                      <a href="#about">About</a>
-                     <a href="#">Services</a>
-                     <a href="#">Education</a>
-                     <a href="#">Contact</a>
+                     <a href="#service">Service</a>
+                     <a href="#education">Education</a>
+                     <a href="#contact">Contact</a>
                 </li>
             </ul>
     </nav>
 </header> 
-
+     <!-- home section -->
     <div class="container">
 
         <section class="home" id="home">
@@ -51,59 +66,143 @@
     </div>
 
     <!-- about section -->
-    <section class="about" id="about">
+    <div class="container">
         
-        <h1 class="heading">about me</h1>
+        <section class="about" id="about">
+            
+        
+            <h1 class="heading">about me</h1>
 
-        <div class="content">
-            <h3 class="name"> my name is <span>Rushikesh Jadhav</span></h3>
-            <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
-                set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.
-            </p>
-            <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
-                set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.
-            </p>
-        </div>
+            <div class="content">
+               <h3 class="name"> my name is <span>Rushikesh Jadhav</span></h3>
+               <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                   set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.
+               </p>
+               <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                   set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.
+               </p>
+           </div>
 
-        <div class="skills">
-            <div class="progress">
-                <h3>html <span>95%</span></h3>
-                <div class="bar"><span></span></div>
+           <div class="skills">
+               <div class="progress">
+                   <h3>html <span>95%</span></h3>
+                   <div class="bar"><span></span></div>
+               </div>
+
+               <div class="progress">
+                   <h3>css <span>85%</span></h3>
+                   <div class="bar"><span></span></div>
+               </div>
+
+               <div class="progress">
+                   <h3>javascript <span>65%</span></h3>
+                   <div class="bar"><span></span></div>
+               </div>
+
+               <div class="progress">
+                   <h3>photoshop <span>70%</span></h3>
+                   <div class="bar"><span></span></div>
+               </div>
+           </div>
+
+       </section>
+     </div>
+
+    <!-- service section -->
+
+    <div class="container">
+       <section class="service" id="service">
+
+           <h1 class="heading">my service</h1>
+
+           <div class="box-container">
+
+              <div class="box">
+                  <i class="fab fa-html5"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+              </div>
+
+              <div class="box">
+               <i class="fab fa-css3"></i>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+           </div>
+
+           <div class="box">
+               <i class="fab fa-js"></i>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+           </div>
+
+           <div class="box">
+               <i class="fab fa-wordpress"></i>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+           </div>
+
+           <div class="box">
+               <i class="fas fa-paint-brush"></i>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+           </div>
+
+           <div class="box">
+               <i class="fas fa-bullhorn"></i>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed.</p>
+           </div>
+
+           </div>
+       </section>
+    </div>
+
+    <!-- Education starts -->
+
+    <div class="container">
+
+       <section class="education" id="education">
+           <h1 class="heading">my education</h1>
+
+           <div class="box-container">
+
+               <div class="box">
+                   <div class="year">2017 - 2018</div>
+                   <h3>font end developer</h3>
+                   <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                       set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.</p>
+
+                   <div class="year">2018 - 2019</div>
+                   <h3>font end developer</h3>
+                   <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                       set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.</p>
+
+                   <div class="year">2019 - 2020</div>
+                   <h3>font end developer</h3>
+                   <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                       set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.</p>
+                
+                
+                   <div class="year">2020 - 2021</div>
+                   <h3>font end developer</h3>
+                   <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos ipsam, temporibus vertotis 
+                       set dignissimos. Ratione consequuntur sapiente reiciendis dolorem.</p>
+               </div>
+           </div>
+       </section>
+    </div>
+
+    <div class="container">
+        <section class="contact" id="contact">
+
+            <h1 class="heading">contact me</h1>
+
+            <div class="row">
+                
+                
+
+
+
+
+
+
+                
             </div>
-
-            <div class="progress">
-                <h3>css <span>85%</span></h3>
-                <div class="bar"><span></span></div>
-            </div>
-
-            <div class="progress">
-                <h3>javascript <span>65%</span></h3>
-                <div class="bar"><span></span></div>
-            </div>
-
-            <div class="progress">
-                <h3>photoshop <span>70%</span></h3>
-                <div class="bar"><span></span></div>
-            </div>
-        </div>
-
-
-    </section>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
-
-<script>
-
-     var type = new typed('.typing-text',{
-         strings : [ 'web designer', 'front end developer', 'graphic designer', 'photographer' ],
-         typeSpeed: 120,
-         loop:true
-     });
-
-</script>
-
-
+        </section>
+    </div>
 </body>
-</html>
+</html>                      
